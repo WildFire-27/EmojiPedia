@@ -1,27 +1,27 @@
 {
   "name": "emojipedia",
   "version": "1.0.0",
-  "homepage": "https://github.com/WildFire-27/EmojiPedia",
-    "private": true,
+  "homepage": "https://github.com/WildFire-27/EmojiPedia.git",
+  "private": true,
   "description": "",
   "keywords": [],
   "main": "src/index.js",
-"dependencies": {
-  "@reduxjs/toolkit": "^1.7.2",
-  "cra-template-redux": "1.0.3",
-  "react": "^17.0.2",
-  "react-dom": "^17.0.2",
-  "react-redux": "^7.2.6",
-  "react-router-dom": "^6.6.1",
-  "react-scripts": "5.0.0"
-},
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.7.2",
+    "cra-template-redux": "1.0.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.6.1",
+    "react-scripts": "5.0.0"
+  },
   "devDependencies": {
     "gh-pages": "^5.0.0",
     "typescript": "3.3.3"
   },
   "scripts": {
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
